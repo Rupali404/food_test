@@ -1,0 +1,65 @@
+body{
+
+
+	background-image: url("image.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container{
+
+	font-size: 20px;
+}
+.container label{
+
+	display: block;
+	margin-left: 20%;
+	margin: 5px;
+
+}
+.container input[type="text"]{
+
+	height: 20px;
+	width: 40%;
+	padding: 15px 20px;
+	font-size: 15px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.container input[type="password"]{
+
+
+	height: 20px;
+	width: 40%;
+	padding: 15px 20px;
+	font-size: 15px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.container select{
+	height: 20px;
+	width: 30%;
+} 
+
+.container input[type="number"]{
+
+	height: 20px;
+	width: 70%;
+	padding: 15px 20px;
+	font-size: 15px;
+	border-radius: 5px;
+	border: 1px solid gray;
+
+
+}
+.btn{
+
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+}
+

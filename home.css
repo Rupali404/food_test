@@ -1,0 +1,30 @@
+
+.nav{
+	/*display: grid;
+	grid-template-columns: 1fr;*/
+	background-color: black;
+	align-items: center;
+	color: white;
+}
+
+.nav_logo{
+	width: 60px;
+	margin-left:10px;
+} 
+
+.nav_menu a{
+	margin-left: 10px;
+	text-decoration: none;
+	color: white;
+}
+
+@media only screen and (min-width: 768px) {
+	body{
+
+		width:100%;
+	}
+	.nav{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	}
+}
